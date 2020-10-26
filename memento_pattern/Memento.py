@@ -3,4 +3,12 @@
 # Only originator can access this object.
 
 class Memento:
-    pass
+
+    def get_name(self) -> str:
+        pass
+
+    def get_date(self) -> str:
+        pass
+
+    def get_state(self):
+        pass
