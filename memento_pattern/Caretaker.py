@@ -2,7 +2,8 @@ from memento_pattern.Originator import Originator
 
 
 # This cannot see anything within the Memento.
-# Makes sure that the Memento has full integrity.
+# Makes sure that the Memento has full integrity, and keeps
+# track of all of the data in the Memento
 
 class Caretaker:
     def __init__(self, originator: Originator) -> None:

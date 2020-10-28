@@ -3,7 +3,7 @@ from memento_pattern.Caretaker import Caretaker
 from memento_pattern.Originator import Originator
 
 if __name__ == "__main__":
-    originator = Originator("AHHHH FUCK")
+    originator = Originator("FUCK")
     caretaker = Caretaker(originator)
 
     caretaker.save_state()

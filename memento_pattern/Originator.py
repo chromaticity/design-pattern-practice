@@ -4,7 +4,7 @@ from memento_pattern.Memento import Memento
 from memento_pattern.SaveState import SaveState
 
 
-# This creates a Memento with a snapshot of the state it's currently in.
+# This creates a Memento with a snapshot of the state it's currently in (using the save function).
 # Memento is then used to restore back to original state.
 
 class Originator:
